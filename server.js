@@ -9,5 +9,5 @@ app.get('/',(req,res) =>{
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`); //서버가 지정된 포트 실행 콘솔 포트번호 출력
-    opn(`http://localhost:${PORT}`); //서버 실행시 브라우저 열림
+    opn(`http://localhost:${PORT}`); //서버 실행시 브라우저 열림!
 });
